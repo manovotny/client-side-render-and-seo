@@ -1,11 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 const App = () =>
     <section>
         <header className="header">
-            <img src={logo} className="logo" alt="logo"/>
             <h1>Welcome to a client side rendered React site! Let's see how seo does...</h1>
         </header>
         <nav className="nav">
