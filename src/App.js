@@ -7,9 +7,9 @@ const App = () =>
             <h1>Welcome to a client side rendered React site! Let's see how seo does...</h1>
         </header>
         <nav className="nav">
-            <a href="/" title="Home">Home</a>
-            <a href="/about.html" title="About">About</a>
-            <a href="/contact.html" title="Contact">Contact</a>
+            <a href={`${process.env.PUBLIC_URL}/`} title="Home">Home</a>
+            <a href={`${process.env.PUBLIC_URL}/about.html`} title="About">About</a>
+            <a href={`${process.env.PUBLIC_URL}/contact.html`} title="Contact">Contact</a>
             <a href="https://google.com" title="Google">Google</a>
         </nav>
         <main className="main">
