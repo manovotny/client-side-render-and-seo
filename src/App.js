@@ -16,6 +16,9 @@ const App = () =>
         </nav>
         <main className="main">
             <p className="intro">
+                Dummy text powered by <a href="https://startupsum.com/" title="Startupsum">Startupsum</a>.
+            </p>
+            <p className="intro">
                 Angel investor social media startup alpha disruptive. Entrepreneur gen-z assets infrastructure
                 startup accelerator. IPad first mover advantage low hanging fruit prototype. Product management
                 bootstrapping direct mailing. Long tail twitter monetization mass market burn rate iPhone startup
